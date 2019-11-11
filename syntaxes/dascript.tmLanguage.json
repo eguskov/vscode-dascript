@@ -110,7 +110,7 @@
         },
         {
           "match": "\\b(const)\\b",
-          "name": "keyword.reserved.dascript"
+          "name": "storage.modifier.specifier.const.dascript"
         },
         {
           "include": "#literals"
@@ -384,7 +384,7 @@
         },
         {
           "match": "\\b(const)\\b",
-          "name": "keyword.reserved.dascript"
+          "name": "storage.modifier.specifier.const.dascript"
         },
         {
           "include": "$self"
@@ -432,7 +432,7 @@
           "patterns": [
             {
               "match": "(\\bvar\\b)",
-              "name": "keyword.control.dascript"
+              "name": "storage.modifier.specifier.var.dascript"
             },
             {
               "include": "#annotated_arguments"
